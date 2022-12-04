@@ -1,33 +1,163 @@
-html {
+.nav-bar {
+    background-color: green;
+    padding: 40px 30px;
+
+}
+
+.nav-bar .logo {
+    float: left;
+
+}
+
+.nav-bar a {
+    float: right;
+
+}
+
+
+
+
+.colour-box {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-bar{
-    background-color: antiquewhite;
+.banner .colour-box #tea-green {
+    margin: 0;
+    width: 20%;
+    min-height: 2rem;
+    background-color: #C9E4CA;
 }
 
-.nav-bar .logo img{
-    display: inline;
+.banner .colour-box #eton-blue {
+    margin: 0;
+    width: 20%;
+
+    min-height: 2rem;
+
+    background-color: #87BBA2;
+
+
+
+
 }
 
- .nav-bar .menu li {
-    display: inline;
-    float: right;
+.banner .colour-box #steel-teal {
+    margin: 0;
+    width: 20%;
+    min-height: 2rem;
+
+    min-height: 150px;
+
+    background-color: #55828B;
+
+
+
+
 }
 
-.banner {
-    background-color: blue;
-    text-align: center;
+.banner .colour-box #deep-space-sparkle {
+    margin: 0;
+    width: 20%;
+    min-height: 2rem;
+
+    min-height: 150px;
+
+    background-color: #3B6064;
+
+
+
+
 }
 
-.content-one{
+.banner .colour-box #charcoal {
+    margin: 0;
+    width: 20%;
+    min-height: 2rem;
+
+    min-height: 150px;
+    background-color: #364958;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
     background-color: brown;
+    padding: 30px;
 }
 
+.buttons #button-one{
+    background-color: #F29559;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 24px;
+
+}
+
+.buttons #button-one:hover{
+    cursor: pointer;
+    background-color: #283845;
+}
+.buttons #button-two{
+    background-color: #283845;
+    display: inline-block;
+  padding: 10px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.buttons #button-two:hover{
+    background-color: #55828B
+    ;
+}
+.buttons #button-two:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
+}
+.buttons #button-three{
+    background-color: #B8B08D;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 24px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.buttons #button-three:hover{
+    opacity: 1;
+}
+
+.buttons #button-three:active{
+    background-color: #F2D492;
+}
 .content-two {
     background-color: bisque;
+    height: 400px;
+    padding: 10px;
+
+
 }
 
 .footer-end {
     background-color: yellow;
+    height: 50px;
+    padding: 10px;
+
 }
