@@ -1,32 +1,35 @@
-.nav-bar {
-    background-color: green;
-    padding: 40px 30px;
-
+body{
+    background-color: #ffffff;
 }
+
+
 
 .nav-bar .logo {
-    float: left;
-
-}
-
-.nav-bar a {
-    float: right;
-
+    opacity: 0.7;
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: 0 auto 0 auto;
 }
 
 
 
 
 .colour-box {
+    border: 1px solid #000000;
+    margin: 10px;
     display: flex;
-    justify-content: space-evenly;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
+    justify-content: space-evenly;
+    
+
 }
 
 .banner .colour-box #tea-green {
     margin: 0;
     width: 20%;
+    padding: 30px 5px;
     min-height: 2rem;
     background-color: #C9E4CA;
 }
@@ -34,6 +37,7 @@
 .banner .colour-box #eton-blue {
     margin: 0;
     width: 20%;
+    padding: 30px 5px;
 
     min-height: 2rem;
 
@@ -48,6 +52,7 @@
     margin: 0;
     width: 20%;
     min-height: 2rem;
+    padding: 30px 5px;
 
     min-height: 150px;
 
@@ -62,6 +67,7 @@
     margin: 0;
     width: 20%;
     min-height: 2rem;
+    padding: 30px 5px;
 
     min-height: 150px;
 
@@ -76,6 +82,7 @@
     margin: 0;
     width: 20%;
     min-height: 2rem;
+    padding: 30px 5px;
 
     min-height: 150px;
     background-color: #364958;
@@ -83,9 +90,13 @@
 }
 
 .buttons {
+    font-family: 'Nunito', sans-serif;
+
     display: flex;
+    margin: 10px;
+    border: 1px solid #000000;
     justify-content: space-evenly;
-    background-color: brown;
+    background-color: #ffffff;
     padding: 30px;
 }
 
@@ -148,16 +159,51 @@
     background-color: #F2D492;
 }
 .content-two {
-    background-color: bisque;
-    height: 400px;
-    padding: 10px;
 
+    border: 1px solid #000000;
+    font-weight: 500;
+
+    margin: 10px;
+    height: auto;
+    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
 
 }
 
-.footer-end {
-    background-color: yellow;
-    height: 50px;
-    padding: 10px;
 
+
+
+.fonts {
+    padding: 10px 10px;
+    justify-content: space-evenly;
+}
+.font-examples{
+    display: block;
+    margin: 40px;
+}
+.content-two .helvetica{
+    font-family: Helvetica, sans-serif;
+}
+.content-two .monospace {
+    font-family: monospace;
+}
+.content-two .nunito {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.content-two li {
+    list-style: none;
+    justify-content: space-around;
+    padding-right: 30px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .buttons #button-one, #button-two, #button-three{
+        margin: 10px;
+        padding: 10px;
+        justify-content: space-between;
+    }
 }
